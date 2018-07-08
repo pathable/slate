@@ -1,5 +1,5 @@
 {
-  "name": "slate",
+  "name": "@pathable/slate",
   "description": "A completely customizable framework for building rich text editors.",
   "version": "0.19.30",
   "license": "MIT",
@@ -136,5 +136,8 @@
     "text",
     "wysiwyg",
     "wysiwym"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }

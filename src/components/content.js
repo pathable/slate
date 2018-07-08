@@ -146,6 +146,9 @@ class Content extends React.Component {
     const window = getWindow(this.element)
     const native = window.getSelection()
 
+    var closestBlockNode = document.getClosestBlock(document.findDescendant(node => node.key === selection.anchorKey).key);
+    if (closestBlockNode.isVoid) return
+
     // If both selections are blurred, do nothing.
     if (!native.rangeCount && selection.isBlurred) return
 
