@@ -1,7 +1,7 @@
 {
   "name": "@pathable/slate",
   "description": "A completely customizable framework for building rich text editors.",
-  "version": "0.19.30",
+  "version": "0.19.31",
   "license": "MIT",
   "repository": "git://github.com/ianstormtaylor/slate.git",
   "main": "./lib/index.js",
